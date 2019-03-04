@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommonWords
+comment0.text=\r\n\ Write\ a\ description\ of\ CommonWords\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=java.lang.String[]\ getCommon()
+comment1.text=public\ void\ testGetCommon()\ {\r\n\ \ \ \ \ \ \ \ FileResource\ resource\ \=\ new\ FileResource\ ("data/common.txt");\r\n\ \ \ \ \ \ \ \ String[]\ common\ \=\ new\ String\ [20];\r\n\ \ \ \ \ \ \ \ int\ index\ \=\ 0;\r\n\ \ \ \ \ \ \ \ for\ (String\ s\ \:\ resource.words())\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ common[index]\ \=\ s;\r\n\ \ \ \ \ \ \ \ \ \ \ \ index\ +\=\ 1;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ System.out.println(Arrays.toString(common));\r\n}
+comment2.params=list\ word
+comment2.target=int\ indexOf(java.lang.String[],\ java.lang.String)
+comment3.params=resource\ common\ counts
+comment3.target=void\ countWords(edu.duke.FileResource,\ java.lang.String[],\ int[])
+comment4.params=
+comment4.target=void\ countShakespeare()
+numComments=5

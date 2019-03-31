@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=QuakeSortInPlace
+comment1.params=
+comment1.target=QuakeSortInPlace()
+comment10.params=list
+comment10.target=void\ dumpCSV(java.util.ArrayList)
+comment2.params=quakes\ from
+comment2.target=int\ getSmallestMagnitude(java.util.ArrayList,\ int)
+comment3.params=quakes\ from
+comment3.target=int\ getLargestDepth(java.util.ArrayList,\ int)
+comment4.params=quakes\ numSorted
+comment4.target=java.util.ArrayList\ getLargestMagnitude(java.util.ArrayList,\ int)
+comment5.params=
+comment5.target=void\ sortByMagnitudeWithBubbleSort()
+comment6.params=in
+comment6.target=void\ sortByMagnitude(java.util.ArrayList)
+comment6.text=public\ void\ testGetLD()\ {\r\n\ \ \ \ \ \ \ \ EarthQuakeParser\ parser\ \=\ new\ EarthQuakeParser();\ \r\n\ \ \ \ \ \ \ \ //String\ source\ \=\ "http\://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom";\r\n\ \ \ \ \ \ \ \ String\ source\ \=\ "data/nov20quakedatasmall.atom";\r\n\ \ \ \ \ \ \ \ //String\ source\ \=\ "data/nov20quakedata.atom";\r\n\ \ \ \ \ \ \ \ ArrayList<QuakeEntry>\ list\ \ \=\ parser.read(source);\ \ \r\n\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ System.out.println("read\ data\ for\ "+list.size()+"\ quakes");\ \ \ \ \r\n\ \ \ \ \ \ \ \ System.out.println(getLargestDepth(list,\ 0));\r\n}
+comment7.params=in
+comment7.target=void\ sortByDepth(java.util.ArrayList)
+comment8.params=
+comment8.target=void\ testSort()
+comment9.params=
+comment9.target=void\ createCSV()
+numComments=11
